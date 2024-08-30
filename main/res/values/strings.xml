@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">myfoodApp</string>
+    <string name="hellow_explore_your_dream_food">Hellow explore your dream food</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="My_Resturant_App">Food Frame</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="already_registered">Already Registered ?</string>
+    <string name="don_t_have_an_account">Don\'t have an Account</string>
+    <string name="wishwa75_gmail_com">wishwa75@gmail.com</string>
+    <string name="vishwa_basnayaka">vishwa Basnayaka</string>
+    <string name="open_nav">Open Navigation drawer</string>
+    <string name="close_nav">close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

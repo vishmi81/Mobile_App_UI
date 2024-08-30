@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lobster"
+            android:text="My Cart"
+            android:textColor="@color/purple"
+            android:textSize="24sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="117dp"
+        android:layout_height="145dp"
+        android:layout_above="@+id/footerLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="427dp"
+        android:src="@drawable/pizza1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="104dp"
+        android:layout_height="110dp"
+        android:layout_above="@+id/footerLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="305dp"
+        android:src="@drawable/dinner" />
+
+    <RelativeLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="63dp"
+            android:text="Make Order" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="86dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="order 1"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="44dp"
+        android:drawableLeft="@drawable/baseline_star_24"
+        android:text="4.3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="54dp"
+        android:inputType="text"
+        android:text="Rs.3200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="-73dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="order 2"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="19dp"
+        android:drawableLeft="@drawable/baseline_star_24"
+        android:text="4.5"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="54dp"
+        android:inputType="text"
+        android:text="Rs.1300"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footerLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="62dp"
+        android:text="Total"
+        android:textColor="@color/purple"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footerLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="61dp"
+        android:text="Rs.4500"
+        android:textColor="@color/purple"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

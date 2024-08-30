@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyMealFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cropToPadding="false"
+        android:paddingLeft="15dp"
+        android:scaleType="center"
+        android:src="@drawable/bg1"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="322dp"
+        android:layout_height="131dp"
+        android:fontFamily="@font/lobster"
+        android:includeFontPadding="true"
+        android:paddingLeft="15dp"
+        android:paddingTop="70dp"
+        android:text="Daily meal"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
